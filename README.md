@@ -66,4 +66,6 @@ Model,Viewの両者のイベントを管理するクラスです。今回はMono
 
 # 原作(ホロライブ)/Source(Hololive)
 ホロライブの著作権表示
+
+
 © 2017-2020 cover corp. [ホロライブプロダクション](https://www.hololive.tv/)
