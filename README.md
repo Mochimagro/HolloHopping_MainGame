@@ -1,12 +1,13 @@
 # ホロホッピング!!!/HoloHopping!!!
-
+<img src="https://img.shields.io/badge/-Unity2019.4.12f1-000000.svg?logo=unity&style=plastic">
 ホロライブの非公式ファンゲーム
-ジャンル：アクションゲーム
+
+ジャンルアクションゲーム
 
 
 # デモ/DEMO
 
-[配信先(UnityRoom)](https://unityroom.com/games/holohopping)
+[<img src="https://img.shields.io/badge/-%E9%85%8D%E4%BF%A1%E5%85%88(UnityRoom)-4285F4.svg?logo=google-chrome&style=plastic">](https://unityroom.com/games/holohopping)
 
 ![プレイ画像](https://drive.google.com/uc?export=view&id=1aebieHpnXxMAGdXLMfmjFcsVR-vOLQVj)
 
@@ -61,7 +62,7 @@ Model,Viewの両者のイベントを管理するクラスです。今回はMono
 
 # 外部ソフト/OtherTools
 - [MagicaVoxel](https://ephtracy.github.io/)
-- [Blender](https://www.blender.org/)
+- [<img src="https://img.shields.io/badge/-Blender-F5792A.svg?logo=blender&style=plastic">](https://www.blender.org/)
 
 # 原作(ホロライブ)/Source(Hololive)
 ホロライブの著作権表示
