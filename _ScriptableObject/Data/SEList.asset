@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38c452fad0722b409b19806801024e3, type: 3}
   m_Name: SEList
   m_EditorClassIdentifier: 
-  _datas: []
+  _datas:
+  - {fileID: 11400000, guid: 644d3a915c288af448d3011599306f8f, type: 2}
+  - {fileID: 11400000, guid: 071a8c9e24961fe429acf4aefcad2b33, type: 2}

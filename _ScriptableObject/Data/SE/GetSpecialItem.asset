@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f429b6c45f501c44af7ce4b34572ba2, type: 3}
   m_Name: GetSpecialItem
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 0}
-  _scene: 0
+  _audioClip: {fileID: 8300000, guid: ce5afbd77e279be40add67a0a2761f9e, type: 3}
+  _scene: 2

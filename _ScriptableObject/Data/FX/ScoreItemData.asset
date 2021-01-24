@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f429b6c45f501c44af7ce4b34572ba2, type: 3}
-  m_Name: GetScoreItem
+  m_Script: {fileID: 11500000, guid: 572a10e3e7da58d49a60fdb80b8f2bf1, type: 3}
+  m_Name: ScoreItemData
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: cb294e6ddaf892942b837d82d50df9a8, type: 3}
-  _scene: 1
+  _component: {fileID: 5992668482847429770, guid: c3679e6f25e6b204ba3405db3a2c2039,
+    type: 3}
+  _type: 1

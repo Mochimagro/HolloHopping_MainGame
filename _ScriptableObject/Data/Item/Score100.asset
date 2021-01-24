@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3006757602684610361, guid: c9fb123693fede844979d449b850749d, type: 3}
   _score: 100
-  _textColor: {r: 1, g: 1, b: 1, a: 1}
+  _itemColor: {r: 1, g: 1, b: 1, a: 1}
   _itemMode: 1
