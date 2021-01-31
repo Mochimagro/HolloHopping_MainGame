@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 053dd43c26982724a823113a18b22004, type: 3}
-  m_Name: Fubuki
+  m_Name: YukihanaLamy
   m_EditorClassIdentifier: 
-  _characterObject: {fileID: 3823829762073542639, guid: 8a8734ef1ce90ee48ba02aa4b24f828c,
+  _characterObject: {fileID: 3136623998656216599, guid: 9bb4fa10ae7ed37409b5355924ada891,
     type: 3}
-  _name: "\u767D\u4E0A\u30D5\u30D6\u30AD"
+  _name: "\u96EA\u82B1\u30E9\u30DF\u30A3"

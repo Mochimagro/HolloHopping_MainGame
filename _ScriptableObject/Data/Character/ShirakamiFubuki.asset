@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053dd43c26982724a823113a18b22004, type: 3}
+  m_Name: ShirakamiFubuki
+  m_EditorClassIdentifier: 
+  _characterObject: {fileID: 3823829762073542639, guid: 8a8734ef1ce90ee48ba02aa4b24f828c,
+    type: 3}
+  _name: "\u767D\u4E0A\u30D5\u30D6\u30AD"

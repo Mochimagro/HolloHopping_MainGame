@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053dd43c26982724a823113a18b22004, type: 3}
+  m_Name: InugamiKorone
+  m_EditorClassIdentifier: 
+  _characterObject: {fileID: 6638032605618715226, guid: 2273a1132b6d7c345beddf7516e2acbb,
+    type: 3}
+  _name: "\u620C\u795E\u3053\u308D\u306D"

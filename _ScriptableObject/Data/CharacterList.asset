@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: CharacterList
   m_EditorClassIdentifier: 
   _list:
+  - {fileID: 11400000, guid: ad97d82b251b57e498d9093782035d89, type: 2}
+  - {fileID: 11400000, guid: 0e2b0c969e893a04e8e0a31e0cc911cd, type: 2}
+  - {fileID: 11400000, guid: 89250cf14592db24d965001212b57796, type: 2}
+  - {fileID: 11400000, guid: 3cedc46a99f30c6468d82ad82d69a785, type: 2}
+  - {fileID: 11400000, guid: d5c5d72b0d6dc4345812fe1b91cb79c9, type: 2}
+  - {fileID: 11400000, guid: 64ee8fc46d69cdf45adf6404bbed402b, type: 2}
+  - {fileID: 11400000, guid: 12f89b9f8b7a36d4d903342496f53d46, type: 2}
   - {fileID: 11400000, guid: 1798758501996704aa05b61df9abfe98, type: 2}
-  - {fileID: 11400000, guid: a94425834c445cd4cb20686138130b5b, type: 2}
+  - {fileID: 11400000, guid: 20134006482319146ba0cc3b43153938, type: 2}
+  - {fileID: 11400000, guid: a34e1083d7199294eba8a725cd02a977, type: 2}
+  - {fileID: 11400000, guid: 50d764d8d8c82374d832e2db9f093081, type: 2}
   - {fileID: 11400000, guid: 1f74e0f3011982c469a1f8885afe66e3, type: 2}
+  - {fileID: 11400000, guid: a94425834c445cd4cb20686138130b5b, type: 2}

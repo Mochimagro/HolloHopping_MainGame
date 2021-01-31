@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 053dd43c26982724a823113a18b22004, type: 3}
-  m_Name: Lamy
+  m_Name: OmaruPolka
   m_EditorClassIdentifier: 
-  _characterObject: {fileID: 3136623998656216599, guid: 9bb4fa10ae7ed37409b5355924ada891,
+  _characterObject: {fileID: 4529708829735735425, guid: c844599e6f7fe91479ebdce7e51f11b9,
     type: 3}
-  _name: "\u96EA\u82B1\u30E9\u30DF\u30A3"
+  _name: "\u5C3E\u4E38\u30DD\u30EB\u30AB"
