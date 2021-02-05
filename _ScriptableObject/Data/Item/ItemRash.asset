@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56126fcfcc8191448ec3a49915a815d, type: 3}
+  m_Name: ItemRash
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 3006757602684610361, guid: 4611623efa369d349b4734c002ca0adc, type: 3}
+  _score: 0
+  _itemColor: {r: 0.9843137, g: 1, b: 0.31764707, a: 1}
+  _itemMode: 3
