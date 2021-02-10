@@ -17,13 +17,13 @@ GameObject:
   - component: {fileID: 8967051005491854142}
   - component: {fileID: 2101052584004693797}
   - component: {fileID: 786141543012195001}
-  - component: {fileID: -2772185951367037351}
-  - component: {fileID: 5058596946798670059}
-  - component: {fileID: 1280381141707955045}
-  - component: {fileID: 7365526096878521906}
-  - component: {fileID: 4187137828457071540}
+  - component: {fileID: -6901301742416284606}
+  - component: {fileID: 1574574684879370943}
+  - component: {fileID: -7789055950164641496}
+  - component: {fileID: 3255552989927670292}
+  - component: {fileID: 5294197726581508675}
   m_Layer: 0
-  m_Name: StarRush
+  m_Name: FeverTime
   m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 8305450398072330451}
-  - {fileID: 6545639972847680625}
+  - {fileID: 5678537977025115295}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -58,9 +58,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tailPaticles:
-  - {fileID: 6545639972828226209}
-  - {fileID: 6545639972828296223}
-  - {fileID: 6545639972828223767}
+  - {fileID: 5678537977040300623}
+  - {fileID: 5678537977040239857}
+  - {fileID: 5678537977040294393}
   _spriteRenderer: {fileID: 8310193562823315725}
   _collider: {fileID: 8310193562823315715}
 --- !u!212 &8310193562823315725
@@ -102,7 +102,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6b2e2d3704be6d74f9d724fcde583419, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d9f92fe0f16ca1449d0a977901718e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -221,14 +221,14 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: -468
-      y: 24
+      y: 36
       width: 300
       height: 129
     showComment: 0
     nodeComment: 
     _Resident: 1
     _Behaviours:
-    - {fileID: 4187137828457071540}
+    - {fileID: 5294197726581508675}
     _BreakPoint: 0
     name: GettedItem
   - _NodeGraph: {fileID: 8967051005491854142}
@@ -236,7 +236,7 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: -480
-      y: 204
+      y: 216
       width: 300
       height: 24
     showComment: 0
@@ -498,7 +498,7 @@ MonoBehaviour:
   _OldFrom: {x: 0, y: 0, z: 0}
   _OldTo: {x: 0, y: 0, z: 0}
   _OldTweenMoveType: 0
---- !u!114 &-2772185951367037351
+--- !u!114 &-6901301742416284606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -516,7 +516,7 @@ MonoBehaviour:
     enableLogging: 1
     enableBreak: 0
   _OwnerBehaviour: {fileID: 0}
-  _ParameterContainer: {fileID: 5058596946798670059}
+  _ParameterContainer: {fileID: 1574574684879370943}
   _Calculators: []
   _Comments: []
   _Groups: []
@@ -530,7 +530,7 @@ MonoBehaviour:
     seconds: 0.1
   _StartStateID: 1559595546
   _States:
-  - _NodeGraph: {fileID: -2772185951367037351}
+  - _NodeGraph: {fileID: -6901301742416284606}
     _NodeID: 1559595546
     position:
       serializedVersion: 2
@@ -542,10 +542,10 @@ MonoBehaviour:
     nodeComment: 
     _Resident: 0
     _Behaviours:
-    - {fileID: 1280381141707955045}
+    - {fileID: -7789055950164641496}
     _BreakPoint: 0
     name: LifeTimeState
-  - _NodeGraph: {fileID: -2772185951367037351}
+  - _NodeGraph: {fileID: -6901301742416284606}
     _NodeID: 534011718
     position:
       serializedVersion: 2
@@ -557,12 +557,12 @@ MonoBehaviour:
     nodeComment: 
     _Resident: 0
     _Behaviours:
-    - {fileID: 7365526096878521906}
+    - {fileID: 3255552989927670292}
     _BreakPoint: 0
     name: Death
   _StateLinkRerouteNodes:
     _Nodes: []
---- !u!114 &5058596946798670059
+--- !u!114 &1574574684879370943
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -574,9 +574,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff7f9820050bbf468fba4b58fe18f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Owner: {fileID: -2772185951367037351}
+  _Owner: {fileID: -6901301742416284606}
   _Parameters:
-  - container: {fileID: 5058596946798670059}
+  - container: {fileID: 1574574684879370943}
     id: 1559595546
     type: 1
     name: LifeTime
@@ -597,7 +597,7 @@ MonoBehaviour:
   _ComponentListParameters: []
   _EnumListParameters: []
   _FloatParameters:
-  - 20
+  - 10
   _FloatListParameters: []
   _GameObjectListParameters: []
   _IntParameters: 
@@ -615,7 +615,7 @@ MonoBehaviour:
   _Vector2ListParameters: []
   _Vector3Parameters: []
   _Vector3ListParameters: []
---- !u!114 &1280381141707955045
+--- !u!114 &-7789055950164641496
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a19d59d3d603bc340aa5df4b130e7c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _NodeGraph: {fileID: -2772185951367037351}
+  _NodeGraph: {fileID: -6901301742416284606}
   _NodeID: 1559595546
   _DataSlotFieldLinks: []
   expanded: 1
@@ -639,28 +639,28 @@ MonoBehaviour:
       _Type: 0
       _Container: {fileID: 0}
       _Slot:
-        nodeGraph: {fileID: -2772185951367037351}
+        nodeGraph: {fileID: -6901301742416284606}
         branchID: 0
       id: 0
       name: 
     _Slot:
-      nodeGraph: {fileID: -2772185951367037351}
+      nodeGraph: {fileID: -6901301742416284606}
       branchID: 0
   _Seconds:
     _Type: 1
     _Value: 0
     _Parameter:
       _Type: 0
-      _Container: {fileID: 5058596946798670059}
+      _Container: {fileID: 1574574684879370943}
       _Slot:
-        nodeGraph: {fileID: -2772185951367037351}
+        nodeGraph: {fileID: -6901301742416284606}
         branchID: 0
       id: 1559595546
       name: LifeTime
     _MinRange: 0
     _MaxRange: 0
     _Slot:
-      nodeGraph: {fileID: -2772185951367037351}
+      nodeGraph: {fileID: -6901301742416284606}
       branchID: 0
   _NextState:
     name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
   _SerializeVersion: 2
   _OldSeconds: 0
   _OldTimeType: 0
---- !u!114 &7365526096878521906
+--- !u!114 &3255552989927670292
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -683,7 +683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 992d80aa977c02c41b4ea3178067a5eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _NodeGraph: {fileID: -2772185951367037351}
+  _NodeGraph: {fileID: -6901301742416284606}
   _NodeID: 534011718
   _DataSlotFieldLinks: []
   expanded: 1
@@ -803,7 +803,7 @@ MonoBehaviour:
     _Calls: []
   _OnStateEnd:
     _Calls: []
---- !u!114 &4187137828457071540
+--- !u!114 &5294197726581508675
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -866,7 +866,7 @@ MonoBehaviour:
     transitionTiming: 2
     lineColorChanged: 0
     lineColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!1001 &6545639972847241331
+--- !u!1001 &5678537977024938141
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -939,65 +939,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19812708, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.9878117
+      value: 0.30588233
       objectReference: {fileID: 0}
     - target: {fileID: 19812708, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 1
+      value: 0.97254115
       objectReference: {fileID: 0}
     - target: {fileID: 19812708, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.9878117
-      objectReference: {fileID: 0}
-    - target: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.9878117
+      value: 0.30588233
       objectReference: {fileID: 0}
-    - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+    - target: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.97254115
+      objectReference: {fileID: 0}
+    - target: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+      propertyPath: stopAction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.30588233
+      objectReference: {fileID: 0}
+    - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.97254115
+      objectReference: {fileID: 0}
+    - target: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d9f1941057f3b34ba948d944427e946, type: 3}
---- !u!4 &6545639972847680625 stripped
+--- !u!4 &5678537977025115295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 439298, guid: 1d9f1941057f3b34ba948d944427e946,
     type: 3}
-  m_PrefabInstance: {fileID: 6545639972847241331}
+  m_PrefabInstance: {fileID: 5678537977024938141}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &6545639972828226209 stripped
+--- !u!198 &5678537977040300623 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 19819218, guid: 1d9f1941057f3b34ba948d944427e946,
     type: 3}
-  m_PrefabInstance: {fileID: 6545639972847241331}
+  m_PrefabInstance: {fileID: 5678537977024938141}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &6545639972828296223 stripped
+--- !u!198 &5678537977040239857 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 19889260, guid: 1d9f1941057f3b34ba948d944427e946,
     type: 3}
-  m_PrefabInstance: {fileID: 6545639972847241331}
+  m_PrefabInstance: {fileID: 5678537977024938141}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &6545639972828223767 stripped
+--- !u!198 &5678537977040294393 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 19812708, guid: 1d9f1941057f3b34ba948d944427e946,
     type: 3}
-  m_PrefabInstance: {fileID: 6545639972847241331}
+  m_PrefabInstance: {fileID: 5678537977024938141}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8310193563017137507
 PrefabInstance:
