@@ -14,15 +14,17 @@ namespace HoloHopping.Presenter
         {
             public const string TIME_UP_FEVER = "TimeUpFever";
             public const string ALL_GET_ITEM = "AllGetItem";
+            public const string END_TWEEN_BONUS_TEXT = "EndTweenBonusText";
         }
 
         [SerializeField] private FeverView _feverView = null;
         private FeverModel _feverModel = null;
 
-        [SerializeField] private Arbor.ArborFSM _arborFSM = null;
+        [SerializeField] private Arbor.ArborFSM _arborFSM => GetComponent<Arbor.ArborFSM>();
 
         public void Init()
         {
+
             GameEventMessage.SendEvent("StartFever");
 
             _feverModel = new FeverModel();
@@ -65,12 +67,25 @@ namespace HoloHopping.Presenter
                 _arborFSM.SendTrigger(FeverTrigger.TIME_UP_FEVER);
             });
         }
+
+        public void ShowBonusScore(int score)
+        {
+            _feverView.PlayBonusText(score);
+
+            _feverView.OnBonusTweenEnd.Subscribe(_ =>
+             {
+                 _arborFSM.SendTrigger(FeverTrigger.END_TWEEN_BONUS_TEXT);
+             });
+
+        }
+
         /// <summary>
         /// 終了処理
         /// アイテム全回収かタイムアップで終了
         /// </summary>
         public void FinishFever()
         {
+            _feverView.KillSequence();
             _feverModel.AllRemoveItem();
             GameEventMessage.SendEvent("EndFever");
         }
