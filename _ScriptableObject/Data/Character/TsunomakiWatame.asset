@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053dd43c26982724a823113a18b22004, type: 3}
   m_Name: TsunomakiWatame
   m_EditorClassIdentifier: 
-  _characterObject: {fileID: 4591278016718153592, guid: 78d11528257898a4badd584c5f487799,
+  _characterObject: {fileID: 7428775411761390094, guid: 19b0f43b1a2342149b91d1af39ffcab1,
     type: 3}
   _name: "\u89D2\u5DFB\u308F\u305F\u3081"
