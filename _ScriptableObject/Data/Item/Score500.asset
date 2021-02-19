@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a56126fcfcc8191448ec3a49915a815d, type: 3}
-  m_Name: FeverScore
+  m_Name: Score500
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 3006757602684610361, guid: 53a42ea17d72dff4cbeb891e4c291756, type: 3}
-  _score: 50
-  _itemColor: {r: 0.27058825, g: 0.9098039, b: 1, a: 1}
+  _prefab: {fileID: 3006757602684610361, guid: 8ac9c839f72daae4f8eb91a57767168c, type: 3}
+  _score: 500
+  _itemColor: {r: 0.6666667, g: 0.2509804, b: 1, a: 1}
   _itemMode: 1

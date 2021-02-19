@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a56126fcfcc8191448ec3a49915a815d, type: 3}
-  m_Name: Score100
+  m_Name: Score300
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 3006757602684610361, guid: a330d37271dd5a64f819bc6b1ee0ce2d, type: 3}
-  _score: 100
-  _itemColor: {r: 0.28627452, g: 1, b: 0.2509804, a: 1}
+  _prefab: {fileID: 3006757602684610361, guid: b54864cbd0c2c734db5295c45ba9481e, type: 3}
+  _score: 300
+  _itemColor: {r: 0.25882354, g: 0.2509804, b: 1, a: 1}
   _itemMode: 1
