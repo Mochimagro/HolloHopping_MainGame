@@ -40,11 +40,11 @@ namespace HoloHopping.Entity
             FeverItem = new ItemEntity(data.FeverScoreItem);
 
         }
-
         public ItemEntity NormalScoreItem { get; private set; }
         public List<HighScoreItem> HighScoreItems { get; private set; }
         public List<ItemEntity> SpecialItems { get; private set; }
         public ItemEntity FeverItem { get; private set; }
+
 
     }
 }
